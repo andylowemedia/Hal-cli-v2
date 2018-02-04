@@ -124,7 +124,7 @@ class ScrapeInstances
     {
         $count = $this->getQueueRepository()->count();
         
-        $numberOfInstances = ceil($count / 1000);
+        $numberOfInstances = ceil($count / 500);
         
         if ($numberOfInstances > $this->getMaxThreshold()) {
             $numberOfInstances = $this->getMaxThreshold();
