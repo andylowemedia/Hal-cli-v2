@@ -52,7 +52,6 @@ class ArticleTwitterPostCommand extends CommandAbstract
                 echo $e->getTraceAsString() . "\n";
                 echo "****************************************************\n";
             }
-            die('test');
         }
         
         return $this;
