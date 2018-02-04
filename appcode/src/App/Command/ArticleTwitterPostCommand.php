@@ -4,10 +4,13 @@ namespace App\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use ZendService\Twitter\Twitter;
-use Zend\Db\Sql\Sql, Zend\Db\Sql\Select;
+use Zend\Db\Sql\Sql;
+use Zend\Db\Sql\Select;
+use Zend\Db\Sql\Expression;
 
 class ArticleTwitterPostCommand extends CommandAbstract
 {
+    protected $baseUrl = "https://www.yournews365.com/";
     
     protected function configure()
     {
@@ -32,11 +35,96 @@ class ArticleTwitterPostCommand extends CommandAbstract
         $data = $this->fetchData();
         
         foreach ($data as $row) {
-            print_r($row);
+            $postExists = $this->checkTwitterPost($row['id']);
+            if ($postExists) {
+                continue;
+            }
+            
+            try {
+                $dateTime = new \DateTime;
+                
+                $tweet = $this->buildTwitterPost($row);
+                $twitter->statuses->update($tweet);
+                echo $this->saveTwitterPost($row['id'], $dateTime) . "\n";
+                sleep(60);
+            } catch (\Exception $e) {
+                echo $e->getMessage() . "\n";
+                echo $e->getTraceAsString() . "\n";
+                echo "****************************************************\n";
+            }
+            die('test');
         }
         
         return $this;
     }
+    
+    protected function saveTwitterPost($articleId, \DateTime $dateTime)
+    {
+        $container = $this->getContainer();
+        
+        $adapter = $container->get('ArticlesDbAdapter');
+        
+        $sql = new Sql($adapter);
+        
+        $insert = $sql->insert()
+                ->into('article_twitter_posts')
+                ->columns([
+                    'article_id',
+                    'posted_datetime',
+                ])
+                ->values([
+                    $articleId,
+                    $dateTime->format('Y-m-d H:i:s')
+                ]);
+        
+        $statement = $sql->prepareStatementForSqlObject($insert);
+        $statement->execute();
+        
+        return $adapter->getDriver()->getConnection()->getLastGeneratedValue();
+    }
+    
+    protected function buildTwitterPost(array $article)
+    {
+        $url = $this->baseUrl . $article['slug'] . "?code=b73c2d22763d1ce2143a3755c1d0ad3a";
+
+        $text = " " . $url;
+
+
+        $title = htmlentities($article['title']);
+        $title = str_replace('&ndash;', '', $title);
+        $title = str_replace('&lsquo;', '', $title);
+        $title = str_replace('&rsquo;', '', $title);
+        $title = str_replace('&amp;nbsp;', ' ', $title);
+        $title = str_replace('&amp;amp;', ' ', $title);
+        $title = str_replace('&eacute;', ' ', $title);
+
+        $tweet = substr(strip_tags($title), 0, (240 - strlen($text))) . $text;
+        
+        return $tweet;
+    }
+    
+    protected function checkTwitterPost($articleId)
+    {
+        $container = $this->getContainer();
+        
+        $adapter = $container->get('ArticlesDbAdapter');
+        
+        $sql = new Sql($adapter);
+        
+        $select = $sql->select()
+                ->columns([
+                    'count' => new Expression('count(DISTINCT id)')
+                ])
+                ->from('article_twitter_posts')
+                ->where([
+                    'article_id = ?' => $articleId
+                ]);
+        
+        $statement = $sql->prepareStatementForSqlObject($select);
+        return (bool) $statement->execute()->getResource()->fetch(\PDO::FETCH_COLUMN);
+
+    }
+    
     
     protected function setupTwitter()
     {
@@ -92,6 +180,7 @@ class ArticleTwitterPostCommand extends CommandAbstract
                     'articles.status_id = 2',
                     'articles.date like ?' => $date->format('Y-m-d') . "%"
                 ]);
+        
         $statement = $sql->prepareStatementForSqlObject($select);
         
         return $statement->execute()->getResource()->fetchAll(\PDO::FETCH_ASSOC);
