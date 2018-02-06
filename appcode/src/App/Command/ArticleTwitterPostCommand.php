@@ -161,7 +161,7 @@ class ArticleTwitterPostCommand extends CommandAbstract
         
         $adapter = $container->get('ArticlesDbAdapter');
         
-        $date = new \DateTime('2018-02-01');
+        $date = new \DateTime();
         
         $sql = new Sql($adapter);
         
