@@ -8,12 +8,14 @@
         }
     ],
     "require": {
+        "php": "^7.2",
         "symfony/console": "^3.3",
         "zendframework/zend-servicemanager": "^3.3",
         "zendframework/zend-config-aggregator": "^1.0",
         "zendframework/zend-db": "^2.8",
         "aws/aws-sdk-php": "^3.36",
-        "zendframework/zendservice-twitter": "^2.1"
+        "zendframework/zendservice-twitter": "^2.1",
+        "zendframework/zend-uri": "^2.5"
     },
     "autoload": {
         "psr-4": {
@@ -24,5 +26,8 @@
         "psr-4": {
             "AppTest\\": "test/AppTest/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
     }
 }

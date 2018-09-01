@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd68d406-f571-4acb-a2fe-fb3e7023186b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Hal-cli-v2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/src/App/Bootstrap/Core.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommandFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManagerFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterMessageBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterMessageBuilderFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/ZendServiceTwitterFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/test/AppTest/Bootstrap/CoreTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/test/AppTest/Services/Aws/ClientFactoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerFactoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterMessageBuilderFactoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterMessageBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/ZendServiceTwitterFactoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/testCode/aws-sqs-count.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/testCode/aws-sqs-read.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/testCode/aws-sqs-send.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/testCode/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/testCode/sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/testCode/universe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcode/testCode/workerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/config/autoload/commands.global.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/config/autoload/database.global.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/config/autoload/global.php" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/config/autoload/global.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Aws/ClientFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/src/App/Services/Aws/ClientFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Command/CheckQueueCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Command/CommandAbstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Command/CommandInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Command/LoadUrlCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Core.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Gearman/ClientFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Gearman/WorkerFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Repository/Queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Repository/QueueFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Repository/RepositoryAbstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Server/ScrapeInstances.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Server/ScrapeInstancesFactory.php" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/appcode/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="TwitterManagerFactoryTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerFactoryTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#49#93#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwitterManagerTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+              <folding>
+                <element signature="e#48#92#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwitterMessageBuilderFactoryTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterMessageBuilderFactoryTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#49#100#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwitterMessageBuilderTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterMessageBuilderTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#49#100#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZendServiceTwitterFactoryTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/ZendServiceTwitterFactoryTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#49#104#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appcode/config/autoload/global.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+              <folding>
+                <element signature="e#7#51#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appcode/config/autoload/local.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/appcode/src/App/Command/CrawlerCommand.php" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterSearch.php" />
+        <option value="$PROJECT_DIR$/appcode/composer.json" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Core.php" />
+        <option value="$PROJECT_DIR$/appcode/test/AppTest/CoreTest.php" />
+        <option value="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterSearchTest.php" />
+        <option value="$PROJECT_DIR$/appcode/phpunit.xml.dist" />
+        <option value="$PROJECT_DIR$/appcode/config/autoload/services.global.php" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Bootstrap/Core.php" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/ZendServiceTwitterFactory.php" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterMessageBuilderFactory.php" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterMessageBuilder.php" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManagerFactory.php" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Services/Aws/ClientFactory.php" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommandFactory.php" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php" />
+        <option value="$PROJECT_DIR$/appcode/config/autoload/commands.global.php" />
+        <option value="$PROJECT_DIR$/appcode/config/autoload/database.local.php" />
+        <option value="$PROJECT_DIR$/appcode/config/config.php" />
+        <option value="$PROJECT_DIR$/appcode/bin/console" />
+        <option value="$PROJECT_DIR$/appcode/test/AppTest/Bootstrap/CoreTest.php" />
+        <option value="$PROJECT_DIR$/appcode/test/AppTest/Services/Aws/ClientFactoryTest.php" />
+        <option value="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerFactoryTest.php" />
+        <option value="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php" />
+        <option value="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterMessageBuilderFactoryTest.php" />
+        <option value="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterMessageBuilderTest.php" />
+        <option value="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/ZendServiceTwitterFactoryTest.php" />
+        <option value="$PROJECT_DIR$/appcode/config/autoload/database.global.php" />
+        <option value="$PROJECT_DIR$/appcode/config/autoload/social-media.local.php" />
+        <option value="$PROJECT_DIR$/appcode/config/autoload/local.php" />
+        <option value="$PROJECT_DIR$/appcode/config/autoload/global.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/appcode/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/appcode/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/appcode/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/appcode/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-crypt" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-http" />
+      <path value="$PROJECT_DIR$/appcode/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-feed" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-config" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-math" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-servicemanager" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-db" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-config-aggregator" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-escaper" />
+      <path value="$PROJECT_DIR$/appcode/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/appcode/vendor/composer" />
+      <path value="$PROJECT_DIR$/appcode/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-uri" />
+      <path value="$PROJECT_DIR$/appcode/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zendservice-twitter" />
+      <path value="$PROJECT_DIR$/appcode/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-validator" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zendoauth" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-i18n" />
+      <path value="$PROJECT_DIR$/appcode/vendor/zendframework/zend-loader" />
+      <path value="$PROJECT_DIR$/appcode/vendor/aws/aws-sdk-php" />
+      <path value="$PROJECT_DIR$/appcode/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/appcode/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/appcode/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/appcode/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/appcode/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/appcode/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/appcode/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/appcode/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/appcode/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/appcode/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/appcode/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/appcode/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/appcode/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/appcode/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/appcode/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/appcode/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/appcode/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/appcode/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/appcode/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/appcode/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/appcode/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/appcode/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/appcode/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/appcode/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/appcode/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/appcode/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/appcode/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/appcode/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/appcode/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/appcode/vendor/sebastian/diff" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="appcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="appcode" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="appcode" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="autoload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="appcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="appcode" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="appcode" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="appcode" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="appcode" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="appcode" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+              <item name="Aws" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="appcode" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+              <item name="SocialMedia" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/appcode" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/appcode/test/AppTest/Bootstrap" />
+      <recent name="$PROJECT_DIR$/appcode/src/App/Bootstrap" />
+      <recent name="$PROJECT_DIR$/appcode/testCode" />
+      <recent name="$PROJECT_DIR$/appcode/src/App/Services" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd68d406-f571-4acb-a2fe-fb3e7023186b" name="Default" comment="" />
+      <created>1535729154271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535729154271</updated>
+      <workItem from="1535729157006" duration="23524000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23524000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Repository/Queue.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Server/ScrapeInstances.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2897" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/testCode/aws-sqs-count.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/jssrc/src/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/testCode/aws-sqs-read.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/testCode/sample.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/testCode/universe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/testCode/workerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/vendor/symfony/console/Command/Command.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Command/CrawlerCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2098">
+          <caret line="1103" column="6" selection-start-line="1103" selection-start-column="6" selection-end-line="1103" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Statement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-699">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/vendor/zendframework/zend-db/src/Adapter/Driver/Pdo/Result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#349#362#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/vendor/zendframework/zend-db/src/Adapter/Driver/ResultInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/vendor/zendframework/zend-db/src/Sql/Sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/vendor/zendframework/zend-db/src/Adapter/Driver/DriverInterface.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/vendor/zendframework/zend-db/src/Adapter/Driver/StatementInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="e#345#384#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/vendor/zendframework/zendservice-twitter/library/ZendService/Twitter/Twitter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/config/autoload/services.global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="792" column="9" selection-start-line="792" selection-start-column="9" selection-end-line="792" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/vendor/symfony/console/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/ZendServiceTwitterFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#45#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterMessageBuilderFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterMessageBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManagerFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#45#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+          <folding>
+            <element signature="e#68#95#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/Aws/ClientFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommandFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#31#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#30#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Bootstrap/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1212">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/bin/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/config/container.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Bootstrap/CoreTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/Aws/ClientFactoryTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#40#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerFactoryTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#49#93#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+          <folding>
+            <element signature="e#48#92#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterMessageBuilderFactoryTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#49#100#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterMessageBuilderTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#49#100#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/ZendServiceTwitterFactoryTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#49#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/config/autoload/database.local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="2" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/config/autoload/database.global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/config/autoload/local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/config/autoload/commands.global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="12" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/config/autoload/social-media.local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/config/autoload/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding>
+            <element signature="e#7#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

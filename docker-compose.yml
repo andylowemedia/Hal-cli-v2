@@ -1,0 +1,28 @@
+version: '3'
+services:
+  php:
+    container_name: 'hal-cli-php'
+    build:
+     context: .
+     dockerfile: Dockerfile
+    environment:
+      DB_ARTICLES_HOST: "10.211.55.29"
+      DB_ARTICLES_SCHEMA: "hal-articles"
+      DB_ARTICLES_USER: "admin"
+      DB_ARTICLES_PASSWORD: "Alyssaj0nes!"
+
+      TWITTER_API_KEY: ''
+      TWITTER_API_SECRET: ''
+      TWITTER_TOKEN: ''
+      TWITTER_SECRET: ''
+      TWITTER_MESSAGE_BASE_URL: ''
+
+      APP_ENV: "development"
+
+    volumes:
+      - ./appcode:/applications/hal-cli-v2
+
+networks:
+    default:
+        external:
+            name: halv2_default
