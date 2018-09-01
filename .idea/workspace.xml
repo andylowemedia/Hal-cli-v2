@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd68d406-f571-4acb-a2fe-fb3e7023186b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/appcode/bin/execute.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php" afterDir="false" />
     </list>
@@ -38,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleTwitterPostCommand.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArticleTwitterPostCommand.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="417">
@@ -54,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="535">
-              <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
               <folding>
                 <element signature="e#68#95#0#PHP" expanded="true" />
               </folding>
@@ -62,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwitterManagerTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TwitterManagerTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="575">
-              <caret line="83" column="38" lean-forward="true" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="38" />
+              <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
               <folding>
                 <element signature="e#48#92#0#PHP" expanded="true" />
               </folding>
@@ -145,9 +142,9 @@
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/appcode/config/autoload/local.php" />
         <option value="$PROJECT_DIR$/appcode/bin/execute.sh" />
-        <option value="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php" />
-        <option value="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php" />
         <option value="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php" />
+        <option value="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php" />
       </list>
     </option>
   </component>
@@ -356,12 +353,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535729154271</updated>
-      <workItem from="1535729157006" duration="29833000" />
+      <workItem from="1535729157006" duration="30447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29833000" />
+    <option name="totallyTimeSpent" value="30447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -732,12 +729,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php">
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="83" column="38" lean-forward="true" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="38" />
+        <state relative-caret-position="417">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
           <folding>
-            <element signature="e#48#92#0#PHP" expanded="true" />
+            <element signature="e#30#74#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -745,19 +742,19 @@
     <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
-          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
           <folding>
             <element signature="e#68#95#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php">
+    <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        <state relative-caret-position="575">
+          <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
           <folding>
-            <element signature="e#30#74#0#PHP" expanded="true" />
+            <element signature="e#48#92#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

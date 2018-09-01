@@ -45,7 +45,7 @@ class TwitterManager
                 'article_twitter_posts.id is null',
                 'articles.status_id = 2',
             ])
-            ->order('article.id DESC')
+            ->order('articles.id DESC')
         ;
 
         $statement = $this->sql->prepareStatementForSqlObject($select);
