@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fd68d406-f571-4acb-a2fe-fb3e7023186b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="550">
-              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
               <folding>
                 <element signature="e#68#95#0#PHP" expanded="true" />
               </folding>
@@ -290,12 +289,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535729154271</updated>
-      <workItem from="1535729157006" duration="31335000" />
+      <workItem from="1535729157006" duration="31407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31335000" />
+    <option name="totallyTimeSpent" value="31407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -689,7 +688,7 @@
     <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
           <folding>
             <element signature="e#68#95#0#PHP" expanded="true" />
           </folding>

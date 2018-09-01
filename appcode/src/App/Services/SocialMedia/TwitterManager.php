@@ -46,7 +46,7 @@ class TwitterManager
                 'articles.status_id = 2',
             ])
             ->order('articles.id DESC')
-            ->limit(1000)
+            ->limit(100)
         ;
 
         $statement = $this->sql->prepareStatementForSqlObject($select);
