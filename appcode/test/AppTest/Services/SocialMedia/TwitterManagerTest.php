@@ -77,12 +77,11 @@ class TwitterManagerTest extends TestCase
             ])
             ->from('articles')
             ->join('article_twitter_posts', 'articles.id = article_twitter_posts.article_id', array(), Select::JOIN_LEFT)
-            ->join('featured_articles', 'articles.id = featured_articles.article_id', array(), Select::JOIN_INNER)
             ->where([
                 'article_twitter_posts.id is null',
                 'articles.status_id = 2',
-                'articles.date like ?' => $date->format('Y-m-d') . "%"
-            ]);
+            ])
+            ->order('article.id DESC');
 
         return $select;
     }
