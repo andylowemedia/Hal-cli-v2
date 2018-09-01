@@ -56,7 +56,7 @@ class ArticleTwitterPostCommand extends Command
             }
             
             try {
-                $tweet = $this->builder($row);
+                $tweet = $this->builder->build($row);
                 $this->zendServiceTwitter->statuses->update($tweet);
                 echo $this->twitterManager->insert($row['id'], $dateTime) . "\n";
                 sleep(60);

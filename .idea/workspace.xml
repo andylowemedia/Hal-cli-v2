@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd68d406-f571-4acb-a2fe-fb3e7023186b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/appcode/bin/execute.sh" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/bin/execute.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,20 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="execute.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="execute.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appcode/bin/execute.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="30">
+              <caret line="2" column="123" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="123" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleTwitterPostCommand.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArticleTwitterPostCommand.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+            <state relative-caret-position="396">
+              <caret line="58" column="43" lean-forward="true" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
               <folding>
                 <element signature="e#30#74#0#PHP" expanded="true" />
               </folding>
@@ -140,10 +141,10 @@
         <option value="$PROJECT_DIR$/appcode/config/autoload/global.php" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/appcode/config/autoload/local.php" />
-        <option value="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php" />
         <option value="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php" />
         <option value="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php" />
         <option value="$PROJECT_DIR$/appcode/bin/execute.sh" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php" />
       </list>
     </option>
   </component>
@@ -248,6 +249,27 @@
               <item name="appcode" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="appcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="appcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="appcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -295,12 +317,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535729154271</updated>
-      <workItem from="1535729157006" duration="32311000" />
+      <workItem from="1535729157006" duration="32847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32311000" />
+    <option name="totallyTimeSpent" value="32847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -487,13 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterMessageBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManagerFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -657,16 +672,6 @@
     <entry file="file://$PROJECT_DIR$/appcode/cron.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-          <folding>
-            <element signature="e#30#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
@@ -696,8 +701,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appcode/bin/execute.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="30">
+          <caret line="2" column="123" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterMessageBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="58" column="43" lean-forward="true" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+          <folding>
+            <element signature="e#30#74#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
