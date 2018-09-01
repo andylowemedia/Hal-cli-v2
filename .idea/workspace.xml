@@ -47,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwitterManager.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TwitterManager.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="550">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
               <folding>
                 <element signature="e#68#95#0#PHP" expanded="true" />
               </folding>
@@ -59,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwitterManagerTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwitterManagerTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+            <state relative-caret-position="365">
+              <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
               <folding>
                 <element signature="e#48#92#0#PHP" expanded="true" />
               </folding>
@@ -143,8 +143,8 @@
         <option value="$PROJECT_DIR$/appcode/config/autoload/local.php" />
         <option value="$PROJECT_DIR$/appcode/bin/execute.sh" />
         <option value="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php" />
-        <option value="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php" />
         <option value="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php" />
+        <option value="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php" />
       </list>
     </option>
   </component>
@@ -243,69 +243,6 @@
               <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
               <item name="appcode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="appcode" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="appcode" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="appcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="appcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="appcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="appcode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="appcode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="appcode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hal-cli-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hal-cli-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="appcode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-              <item name="SocialMedia" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -353,12 +290,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535729154271</updated>
-      <workItem from="1535729157006" duration="30447000" />
+      <workItem from="1535729157006" duration="31335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30447000" />
+    <option name="totallyTimeSpent" value="31335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -739,22 +676,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php">
+    <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="365">
+          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
           <folding>
-            <element signature="e#68#95#0#PHP" expanded="true" />
+            <element signature="e#48#92#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php">
+    <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+        <state relative-caret-position="550">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
           <folding>
-            <element signature="e#48#92#0#PHP" expanded="true" />
+            <element signature="e#68#95#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
