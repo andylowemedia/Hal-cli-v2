@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd68d406-f571-4acb-a2fe-fb3e7023186b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appcode/bin/execute.sh" beforeDir="false" afterPath="$PROJECT_DIR$/appcode/bin/execute.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,16 +25,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="execute.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="execute.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appcode/bin/execute.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="123" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="123" />
+            <state relative-caret-position="45">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleTwitterPostCommand.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArticleTwitterPostCommand.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -143,8 +142,8 @@
         <option value="$PROJECT_DIR$/appcode/config/autoload/local.php" />
         <option value="$PROJECT_DIR$/appcode/test/AppTest/Services/SocialMedia/TwitterManagerTest.php" />
         <option value="$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterManager.php" />
-        <option value="$PROJECT_DIR$/appcode/bin/execute.sh" />
         <option value="$PROJECT_DIR$/appcode/src/App/Command/ArticleTwitterPostCommand.php" />
+        <option value="$PROJECT_DIR$/appcode/bin/execute.sh" />
       </list>
     </option>
   </component>
@@ -317,12 +316,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535729154271</updated>
-      <workItem from="1535729157006" duration="32847000" />
+      <workItem from="1535729157006" duration="32875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32847000" />
+    <option name="totallyTimeSpent" value="32875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -699,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcode/bin/execute.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="123" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appcode/src/App/Services/SocialMedia/TwitterMessageBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -720,6 +712,13 @@
           <folding>
             <element signature="e#30#74#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/bin/execute.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
